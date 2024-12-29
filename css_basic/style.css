@@ -9,6 +9,8 @@ header {
     height: 20px;
     width: auto;
     display: inline-block;
+    color: rbg(40,80,0);
+    background-color: aqua;
 }
 main {
     display: flex;
@@ -20,10 +22,11 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
-    
+    text-align: center;
+    color: red; 
 }
 aside {
-    flex: 1;
+    flex: 1;;
     overflow-y: auto;
     
 }
