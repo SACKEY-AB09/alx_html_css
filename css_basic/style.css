@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    border:  3px solid black;
+}
+header {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+    border-bottom: 1px solid black; 
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    
+}
+footer{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+}
+aside {
+    border: 2px;
+}
