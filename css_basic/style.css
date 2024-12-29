@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 8px;
+    margin: 0;
+    padding: 0;
     border:  3px solid black;
 }
 header {
@@ -33,4 +34,15 @@ footer{
 }
 aside {
     border: 2px;
+}
+.works_on_smartphones {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    width: 90%;
+}
+img {
+    width: 500px;
+    height: 500px;
+    align-content: center;
 }
