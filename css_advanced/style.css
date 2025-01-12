@@ -1,0 +1,74 @@
+header {
+    background-image: url('images/Object.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    height: 1093px;
+}
+body {
+    font-family: "Source Sans 3", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+header nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-right: 7%;
+}
+nav a {
+    color: white;
+    margin: 10px;
+}
+.letter {margin-left: auto;
+    margin: 0;
+    line-height: 5px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 100px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+span {
+    padding-left: 5%;
+    align-items: center;
+    font-weight: 30px;
+}
+.pad {
+    padding-left: 35%;
+}
+button {
+    margin: 40px;
+    background:none;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(194, 113, 255, 1);
+    border-radius: 35px;
+}
+.picture {
+    display: flex;
+    gap: 100px;
+    padding-left: 120px;
+    padding-top: 200px;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+}
