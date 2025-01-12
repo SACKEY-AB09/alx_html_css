@@ -72,3 +72,10 @@ h2 {
     align-items: center;
     padding-left: 40%;
 }
+.blog {
+    background-color: rgba(194, 113, 255, 1);
+    display: flex;
+    color: white;
+    gap: 40px;
+    font-weight: 100px;
+}
