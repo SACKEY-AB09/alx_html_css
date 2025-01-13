@@ -79,3 +79,22 @@ h2 {
     gap: 40px;
     font-weight: 100px;
 }
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    padding-top: 50px;
+}
+.stars {
+    display: flex;
+    flex-direction: row;
+    color:rgba(194, 113, 255, 1);
+}
+.tittle {
+    display: block;
+}
+.name {
+    color:rgba(194, 113, 255, 1);
+}
+ 
