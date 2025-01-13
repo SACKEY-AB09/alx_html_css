@@ -97,4 +97,23 @@ h2 {
 .name {
     color:rgba(194, 113, 255, 1);
 }
+.member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    padding-top: 50px;
+}
+.four {
+    background-color: rgba(7, 22, 41, 1);
+}
+.write {
+    color: rgba(255, 255, 255, 1);
+}
+.wat {
+    margin-bottom: 20px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
  
