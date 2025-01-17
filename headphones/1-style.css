@@ -1,0 +1,78 @@
+body {
+    font-family: "Source Sans 3", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.wwd h2 {
+    justify-content:space-between;
+    padding-left: 40%;
+}
+.used img {
+    height:60px;
+    width: 60px;
+    color: rgb(229, 93, 93);
+}
+.used {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap:60px;
+    padding-right: 100px;
+}
+.sent {
+    padding-left: 6%;
+}
+.pent img {
+    height: 60px;
+    width:60px;
+}
+.sent p {
+    text-align:center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.me {
+    font-weight: bold;
+    font-size:larger;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        width:600px;
+        margin: 0px;
+        padding:0px;
+        justify-content: center;
+    
+    }
+
+    .used div {
+    font-display: flex;
+    flex-direction: row-reverse;
+}
+.wwd {
+    width: 600px;
+}
+.sent p {
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.used {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-right: 100px;
+    }
+
+}
